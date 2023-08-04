@@ -1,0 +1,18 @@
+function invert(array) {
+  array.forEach((number) => {
+    if (number % 2 == 0) {
+      return number * 8;
+    } else return number * 9;
+  });
+}
+
+function invert(array) {
+  const numbers2 = array.map(myFunction);
+  return numbers2;
+}
+
+function myFunction() {
+  if (number % 2 == 0) {
+    return number * 8;
+  } else return number * 9;
+}
